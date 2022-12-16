@@ -1,4 +1,3 @@
-from playwright.sync_api import sync_playwright
 import streamlit as st
 import pandas as pd
 from time import sleep
