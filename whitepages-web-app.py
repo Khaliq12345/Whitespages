@@ -23,7 +23,7 @@ def scrape():
     item_list = []
     col1, col2 = st.columns(2)
     progress = col1.metric('Names Compared', value=0)
-    for x,y in zip(all_name[:10], all_location[:10]):
+    for x,y in zip(all_name, all_location):
         n = n + 1
         ua = get_random_user_agent()
         headers = {
