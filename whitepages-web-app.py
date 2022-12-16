@@ -98,5 +98,5 @@ button = st.button('Scrape!')
 
 if button:
     scrape()
-    st.balloons
+    st.balloons()
     st.success('Done!')
